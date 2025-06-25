@@ -1,27 +1,16 @@
+# 📉 Telecom Churn Prediction
 
-## 🧠 Techniques Used
+Predicting customer churn in the telecom industry using machine learning techniques to help businesses improve customer retention.
 
-- **Libraries**: NumPy, Pandas, Scikit-Learn, TensorFlow/Keras, Matplotlib, Seaborn
-- **Preprocessing**:
-  - Missing value handling
-  - One-Hot Encoding
-  - SMOTE for class imbalance
-  - Train-Test Split (80-20)
-- **Model**: Feedforward Neural Network (MLP)
-  - Input → Dense(64, ReLU) → Dropout(0.3) → Dense(32, ReLU) → Dropout(0.3) → Output(Sigmoid)
-- **Evaluation**:
-  - Accuracy: **80.4%**
-  - AUC: **0.842**
-  - Confusion Matrix, Precision, Recall, F1-score
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+![License](https://img.shields.io/github/license/TryMk/Telecom-Churn-Prediction)
+![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow-orange?logo=tensorflow)
 
-## 📊 Results Summary
+## 🔍 Overview
 
-| Metric        | Churned (Class 1) | Not Churned (Class 0) |
-|---------------|-------------------|------------------------|
-| Precision     | 0.60              | 0.89                   |
-| Recall        | 0.61              | 0.89                   |
-| F1-score      | 0.60              | 0.89                   |
-| AUC           | \> 0.84           | —                      |
+Customer churn (attrition) is a major concern for telecom companies. This project builds a predictive model to identify customers likely to leave based on their service usage patterns, demographics, and account info.
 
-![ROC Curve](./visuals/roc_curve.png)
-![Confusion Matrix](./visuals/confusion_matrix.png)
+This project applies data preprocessing, SMOTE balancing, and a neural network model using TensorFlow to achieve high recall and AUC, allowing proactive retention strategies.
+
+## 📁 Project Structure
+
