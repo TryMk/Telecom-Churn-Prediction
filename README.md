@@ -19,13 +19,11 @@ The goal is to enable companies to take proactive retention steps using data-dri
 ## 📁 Project Structure
 
 ```
-├── data/                      # Raw and preprocessed datasets
+├── data/                     # Datasets
 ├── notebooks/                # Jupyter notebooks with EDA, training, and evaluation
 ├── models/                   # Trained models and weights
 ├── visuals/                  # ROC curves, confusion matrix, and plots
-├── report.pdf                # Final report summarizing methodology and findings
-├── churn_model.py            # Script for model building and training
-├── requirements.txt
+├── report/                   # Final report summarizing methodology and findings
 └── README.md
 ```
 
@@ -58,13 +56,13 @@ The goal is to enable companies to take proactive retention steps using data-dri
 | AUC           | 0.842             | —                      |
 | Accuracy      | 80.4%             | —                      |
 
-<p align="center">
+<p align="left">
   <img src="./visuals/roc_curve.png" width="400"/>
   <br>
   <i>Figure: ROC Curve</i>
 </p>
 
-<p align="center">
+<p align="left">
   <img src="./visuals/confusion_matrix.png" width="400"/>
   <br>
   <i>Figure: Confusion Matrix</i>
