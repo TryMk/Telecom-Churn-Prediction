@@ -121,7 +121,7 @@ Or use Jupyter notebooks in the `notebooks/` directory for interactive explorati
 
 ## 📄 Report
 
-📎 [Internship Report (PDF)](https://github.com/TryMk/Telecom-Churn-Prediction/blob/main/report.pdf)
+📎 [Internship Report (PDF)](https://github.com/TryMk/Telecom-Churn-Prediction/blob/main/Telecom_Churn_Prediction.pdf)
 
 ---
 
