@@ -3,7 +3,6 @@
 Predicting customer churn in the telecom industry using machine learning techniques to help businesses improve customer retention.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
-![License](https://img.shields.io/github/license/TryMk/Telecom-Churn-Prediction)
 ![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow-orange?logo=tensorflow)
 
 ---
